@@ -44,4 +44,20 @@ def right ():
     global direction
     direction = RIGHTS
     print("you pressed right")
+turtle.onkeypress(up,UP_ARROW)
+turtle.onkeypress(down,DOWN_ARROW)
+turtle.listen()
+
+
+
+
+
+
+
+
+
+
+
+
+    
 ##turtle.mainloop()
